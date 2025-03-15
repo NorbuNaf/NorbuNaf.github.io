@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Norbusamten Naftel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Norbusamten Naftel</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="extracurric.html">Extracurriculars</a></li>
+                <li><a href="roomba.html">Roomba Project</a></li>
+                <li><a href="neuron.html">Neuron Project</a></li>
+                <li><a href="current_project.html">Current Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Roomba Project</h1>
+        
+        <div>
+            <table class="center-table">
+                <tr>
+                    <th><img src="roomba_side.jpg" alt="Profile Picture" class="image"></th>
+                    <th><img src="roomba_top.jpg" alt="Profile Picture" class="image"></th>
+                    <th><img src="roomba_back.jpg" alt="Profile Picture" class="image"></th>
+                </tr>
+            </table>
+            <div class="bio">
+                <p>I had the opportunity to model the behavior of a Roomba through the use of an FPGA. This independent project allowed me to truly understand the capability of a hardware descriptive language like Verilog. In the beginning of this project I broke down the robot's behavior into two parts: exploring an area and seeking a homebase. Both states were initially designed as a state machine to model the entire robot's decision making. I was then able to implement obstacle avoidance using both a front-facing LIDAR sensor and a downward-facing IR sensor to make sure the robot doesn't bump into anything in front of it while also being able to watch out for steep drop-offs. When thinking about the seek home state, the robot was using an IR receiver and a hall effect sensor in addition to the obstacle avoidance system. The robot would do a 360° scan of the room to find what heading the strongest IR reading is coming from because there is an IR emitter on the homebase, and heads in that direction. The robot will then know it reached the homebase because there's a magnet right in front of the homebase which would trigger the hall effect sensor and the robot will stop. </p>
+                
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
