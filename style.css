@@ -79,8 +79,6 @@ p {
 
 /* Profile section */
 .profile-section {
-    /* display: grid;
-    grid-template-columns: 1fr 2fr; */
     gap: 2rem;
     margin-bottom: 2rem;
 }
