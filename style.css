@@ -15,7 +15,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
 header {
     background-color: white;
     padding: 1rem 0;
@@ -79,9 +78,6 @@ p {
 th {
     font-weight: bold;
     color: black;
-}
-.description {
-    margin-bottom: 2rem;
 }
 
 .image {
